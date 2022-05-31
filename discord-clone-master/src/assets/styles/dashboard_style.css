@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&family=Heebo:wght@600&display=swap');
+
+#dashboard{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 4% 19% 77%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#other-tools{
+    background-color: rgb(15,15,15);
+    display: flex;
+    flex-direction: column;
+}
+#dashboard-message{
+    background-color: rgb(40,40,40);
+    padding: 0.4rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.35rem;
+}
+#dashboard-main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50,50,50);
+}
+#dashboard-main-nav{
+    height: 7%;
+    border-bottom: solid rgb(30,30,30) 0.05rem;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#dashboard-main-sub{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    height: 93%;
+}
+#dashboard-main-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 0.1rem rgb(80,80,80);
+}#dashboard-main-main p{
+    color: rgb(130,130,130);
+}#dashboard-main-main img{
+    width: 60%;
+    height: 60%;
+}
+#dashboard-active-now{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 2rem 0.7rem;
+}
+#dashboard-active-now div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dashboard-active-now div p{
+    font-size: 0.85rem;
+    color: rgb(200,200,200);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0.7rem 0.3rem;
+}
+#dashboard-active-now div h3{
+    padding-top: 0.7rem ;
+}
+
+
+.dashboard-add-friend{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+#dashboard-main-nav span{
+    margin: 0 1rem;
+}.dashboard-add-friend:hover ,.dashboard-online:hover{
+    text-decoration: underline;
+}.dashboard-add-friend ,.dashboard-online{
+    cursor: pointer;
+}
+    
+#dashboard-main-nav img{ cursor: pointer;}
+#dashboard-main-nav button{
+    cursor: pointer;
+    background-color: rgb(0,190,0);
+    border-radius: 0.4rem;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    transition: 0.15s;
+}
+#dashboard-main-nav button:hover{
+    transform: scale(1.1);
+}
+.dashboard-others{
+    color: rgb(130,130,130);
+    cursor: no-drop;
+}
+
+#dashboard-message input{
+    border: none;
+    outline: none;
+    background-color: rgb(20,20,20);
+    color: white;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}#dashboard-message ::placeholder{
+    color: rgb(130,130,130);
+    font-family: sans-serif;
+}
+#dashboard-options{
+    display: flex;
+    flex-direction: column;
+}
+#dashboard-options button{
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    background-color: rgb(40,40,40);
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.3rem;
+    transition: 0.2s;
+    color: rgb(130,130,130);
+}#dashboard-options button:hover{
+    background-color: rgb(80,80,80);
+    color: white;
+}
+#dashboard-dms-header{
+    display: grid;
+    grid-template-columns: 92.5% 7.5%;
+}#dashboard-dms-header span{
+    display: flex;
+    justify-content: start;
+    color: rgb(130,130,130);
+    font-family: 'Heebo', sans-serif;
+}#dashboard-dms-header img{
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+}
+.dashboard-dm-circle{
+    background-color: rgb(60,60,60);
+    border-radius: 1rem;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}.dashboard-dm-rectangle{
+    background-color: rgb(60,60,60);
+    border-radius: 1rem;
+    height: 1.35rem;
+    width: 70%;
+}.dashboard-dm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.7rem 0;
+}
+#other-tools img{
+    width: 100%;
+}#other-tools img:hover{
+    border: solid red 1px;
+}#other-tools button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.25rem 0;
+}
+#add-friend{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+}#add-friend h3{
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+.add-friend-info{
+    color: rgb(200,200,200);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.85rem;
+}
+#add-friend-input-div{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(60,60,60);
+    border-radius: 0.5rem;
+    border : solid rgb(20,20,20) 0.1rem;
+    margin: 1.25rem 0.2rem;
+}#add-friend-input-div input{
+    width: 75%;
+    outline: none;
+    background-color: rgb(40,40,40);
+    border: none;
+    padding: 1rem 0.7rem;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    border-radius: 0.5rem;
+}#add-friend-input-div button{
+    width: 22%;
+    color: white;
+    background-color: #4d58e9;
+    border-radius: 0.25rem;
+    border:none;
+    padding: 0.5rem 0.3rem;
+    font-size: 0.75rem;
+    margin-left: 1.5%;
+    transition: 0.4s;
+    cursor: pointer;
+}#add-friend-input-div button:hover{
+    transform: scale(1.1);
+}
+#wumpus-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.75);
+    margin-top: 3rem;
+}.wumpus-waiting{
+    color: rgb(130,130,130);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 2.25rem;
+}#add-friend-span{
+    color: rgb(0,190,0);
+    cursor: context-menu;
+}#add-friend-a{
+    color: white;
+    text-decoration: none;
+}
